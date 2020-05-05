@@ -26,7 +26,7 @@ do
 	esac
 done
 
-num_vehicles=${NUM_VEHICLES:=3}
+num_vehicles=${NUM_VEHICLES:=2}
 export PX4_SIM_MODEL=${VEHICLE_MODEL:=iris}
 
 if [ "$PX4_SIM_MODEL" != "iris" ] && [ "$PX4_SIM_MODEL" != "plane" ] && [ "$PX4_SIM_MODEL" != "standard_vtol" ]
